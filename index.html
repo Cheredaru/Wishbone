@@ -4,125 +4,149 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Wishbone</title>
 </head>
 <body>
   <header class="header">
-    <img src="img/header_logo.svg" alt="">
-    <nav class="header__mainMenuBlock">
-      <ul class="header__mainMenu">
-        <li class="mainMenu__option">Projects</li>
-        <li class="mainMenu__option">About</li>
-        <li class="mainMenu__option">News</li>
-        <li class="mainMenu__option">Team</li>
-        <li class="mainMenu__option">Contact</li>
+    <img src="img/header_logo.svg" alt="Wishbone+Partners logo">
+    <nav class="header__main-menu-block">
+      <ul class="header__main-menu">
+        <li class="main-menu__item">Projects</li>
+        <li class="main-menu__item">About</li>
+        <li class="main-menu__item">News</li>
+        <li class="main-menu__item">Team</li>
+        <li class="main-menu__item">Contact</li>
       </ul>
     </nav>
   </header>
-  <section>
-    <h3>Wishbone+Partners</h3>
-    <h1>The home of beautiful architecture.</h1>
-    <p>We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below.</p>
-    <button>Read more</button>
-  </section>
-  <section>
-    <h3>Our firm</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-    <img src="img/senior_partner_photo.jpg" alt="Senior Partner photo">
-    <span>Stephen Collier</span>
-    <span>Senior Partner</span>
-  </section>
-  <section>
-    <h4>Reeding House</h4>
-    <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-  </section>
-  <section>
-    <h4>Our process</h4>
-    <h2>How we do what we do.</h2>
-    <div>
-      <img src="img/Sketching-Icon.svg" alt="">
-      <h5>Sketching</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
-    </div>
-    <div>
-      <img src="img/Finalizing-Icon.svg" alt="">
-      <h5>Finalizing</h5>
-      <p>Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
-    </div>
-    <div>
-      <img src="img/Building-Icon.svg" alt="">
-      <h5>Building</h5>
-      <p>Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
-    </div>
-  </section>
-  <section>
-    <h2>The marble staircase</h2>
-    <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-  </section>
-  <section>
-    <h4>prior clients</h4>
-    <h2>Happy customers.</h2>
-    <p>Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
-    <div>
-      <img src="img/customer_Hill&Hayes.svg" alt="">
-      <img src="img/customer_Riksgransen.svg" alt="">
-      <img src="img/customer_Studio-Cai.svg" alt="">
-      <img src="img/customer_Chill-Industries.svg" alt="">
-    </div>
-  </section>
-  <section>
-    <h2>The swirling staircase</h2>
-    <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
-  </section>
-  <section>
-    <h2>Featured projects</h2>
-    <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
-    <img src="img/projects_building-sky.jpg" alt="">
-    <img src="img/projects_brewery.jpg" alt="">
-    <h4>New York</h4>
-    <h3>Big Road Brewery</h3>
-    <img src="img/projects_building-white-bg.jpg" alt="">
-    <button>View all projects</button>
-  </section>
-  <section>
-    <h2>Meet our team</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
-    <button>See team</button>
-    <div>
-      <div>
-        <img src="" alt="">
-        <span>Stephen Collier</span>
-        <span>Senior Partner</span>
+  <main class="main-container">
+    <section class="section-cover">
+      <div class="section-cover__info">
+        <h3 class="common-header-cap">Wishbone+Partners</h3>
+        <h1 class="main-header hedaer-weight-normalizer">The home of beautiful architecture.</h1>
+        <p class="common-paragraph">We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below.</p>
+        <a href="#" class="common-button">Read more</a>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Ferris Wonder</span>
-        <span>Associate Partner</span>
+      <img class="section-cover__image" src="img/main-cover.jpg" alt="">
+    </section>
+    <section class="section-about">
+      <h2 class="section-about__header">Our firm</h2>
+      <div class="section-about__info">
+        <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+        <div class="profile-data">
+          <img src="img/senior_partner_photo.jpg" alt="Senior Partner photo" class="profile-picture">
+          <div class="profile-text">
+            <span class="profile-name">Stephen Collier</span>
+            <span class="profile-position">Senior Partner</span>
+          </div>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Niko Ferry</span>
-        <span>Partner</span>
+    </section>
+    <section class="project-cover">
+      <img src="img/building-cover.png" alt="building cover picture" class="project-cover__image">
+      <div class="project-cover__text">
+        <h4 class="project-cover__header common-header-cap">Reeding House</h4>
+        <p class="common-paragraph">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Nolan Peters</span>
-        <span>Associate</span>
+    </section>
+    <section class="section-how">
+      <h3 class="common-header-cap">Our process</h3>
+      <h2 class="section-how__header hedaer-weight-normalizer">How we do what we do.</h2>
+      <div class="section-how__container">
+        <div class="container__card">
+          <img src="img/Sketching-Icon.svg" alt="">
+          <h4 class="container__card-header hedaer-weight-normalizer">Sketching</h4>
+          <p class="container__card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
+        </div>
+        <div class="container__card">
+          <img src="img/Finalizing-Icon.svg" alt="">
+          <h4 class="container__card-header hedaer-weight-normalizer">Finalizing</h4>
+          <p class="container__card-paragraph">Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
+        </div>
+        <div class="container__card">
+          <img src="img/Building-Icon.svg" alt="">
+          <h4 class="container__card-header hedaer-weight-normalizer">Building</h4>
+          <p class="container__card-paragraph">Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
+        </div>
       </div>
-      <div>
-        <img src="" alt="">
-        <span>Aria Stone</span>
-        <span>Senior Partner</span>
+    </section>
+    <section class="project-cover">
+      <img src="img/staircase-cover.png" alt="staircase cover picture" class="project-cover__image">
+      <div class="project-cover__text">
+        <h4 class="project-cover__header common-header-cap">The marble staircase</h4>
+        <p class="common-paragraph">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
       </div>
-    </div>
-  </section>
-  <section>
-    <h2>Get in touch</h2>
-    <p>Think we would be a good fit for your next project?</p>
-    <button>Get in touch</button>
-  </section>
+    </section>
+    <section class="section-clients">
+      <div class="clients__text">
+        <h4 class="common-header-cap" style="color:var(--main-text-color-dark)">prior clients</h4>
+        <h2 class="section-clients__header">Happy customers.</h2>
+        <p class="common-paragraph" style="color:var(--main-text-color-dark) ">Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula. Vestibulum sit amet urna turpis. Mauris euismod elit et nisi ultrices, ut faucibus orci tincidunt.</p>
+      </div>
+      <div class="clients__companies">
+        <img src="img/customer_Hill&Hayes.svg" alt="">
+        <img src="img/customer_Riksgransen.svg" alt="">
+        <img src="img/customer_Studio-Cai.svg" alt="">
+        <img src="img/customer_Chill-Industries.svg" alt="">
+      </div>
+    </section>
+    <section>
+      <h2>The swirling staircase</h2>
+      <p>Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
+    </section>
+    <section>
+      <h2>Featured projects</h2>
+      <p>Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
+      <img src="img/projects_building-sky.jpg" alt="">
+      <img src="img/projects_brewery.jpg" alt="">
+      <h4>New York</h4>
+      <h3>Big Road Brewery</h3>
+      <img src="img/projects_building-white-bg.jpg" alt="">
+      <button>View all projects</button>
+    </section>
+    <section>
+      <h2>Meet our team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
+      <button>See team</button>
+      <div>
+        <div>
+          <img src="" alt="">
+          <span>Stephen Collier</span>
+          <span>Senior Partner</span>
+        </div>
+        <div>
+          <img src="" alt="">
+          <span>Ferris Wonder</span>
+          <span>Associate Partner</span>
+        </div>
+        <div>
+          <img src="" alt="">
+          <span>Niko Ferry</span>
+          <span>Partner</span>
+        </div>
+        <div>
+          <img src="" alt="">
+          <span>Nolan Peters</span>
+          <span>Associate</span>
+        </div>
+        <div>
+          <img src="" alt="">
+          <span>Aria Stone</span>
+          <span>Senior Partner</span>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>Get in touch</h2>
+      <p>Think we would be a good fit for your next project?</p>
+      <button>Get in touch</button>
+    </section>
+  </main>
   <footer>
     <img src="img/footer_logo.svg" alt="">
     <p>Powered by Webflow. All rights reserved Wishbone+Partners, Inc.Licensing.</p>
