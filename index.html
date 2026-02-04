@@ -33,13 +33,13 @@
       <img class="section-cover__image" src="img/main-cover.jpg" alt="">
     </section>
     <section class="section-about">
-      <h2 class="section-about__header">Our firm</h2>
+      <h2 class="section__header hedaer-weight-normalizer">Our firm</h2>
       <div class="section-about__info">
         <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         <div class="profile-data">
-          <img src="img/senior_partner_photo.jpg" alt="Senior Partner photo" class="profile-picture">
+          <img src="img/Stephen_Collier_photo.jpg" alt="Stephen Collier photo" class="profile-picture">
           <div class="profile-text">
             <span class="profile-name">Stephen Collier</span>
             <span class="profile-position">Senior Partner</span>
@@ -108,6 +108,7 @@
       <div class="featured-projects__image-caption">
         <h4 class="common-header-cap">New York</h4>
         <p class="common-paragraph image-caption__paragraph">Big Road Brewery</p>
+        <a href="#" class="featured-projects__image-button">Read more</a>
       </div>
       <div class="featured-projects__pictures">
         <img src="img/projects_building-sky.jpg" alt="Building project photo"  class="featured-projects__image">
@@ -116,50 +117,73 @@
       </div>
       <a href="#" class="common-button">View all projects</a>
     </section>
-    <section>
-      <h2>Meet our team</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
-      <button>See team</button>
-      <div>
+    <section class="section-team">
+      <div class="section-team__info">
+        <h2 class="section__header hedaer-weight-normalizer">Meet our team</h2>
+        <p class="common-paragraph section-team__paragraph">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
+        <a href="#" class="common-button">See team</a>
+      </div>
+      <div class="section-team__cards">
         <div>
-          <img src="" alt="">
-          <span>Stephen Collier</span>
-          <span>Senior Partner</span>
+          <div class="profile-data">
+            <img src="img/Stephen_Collier_photo.jpg" alt="Stephen Collier photo" class="profile-picture">
+            <div class="profile-text">
+              <span class="profile-name" style="font-size: 17px;">Stephen Collier</span>
+              <span class="profile-position">Senior Partner</span>
+            </div>
+          </div>
+          <div class="profile-data">
+            <img src="img/Ferris_Wonder_photo.png" alt="" class="profile-picture">
+            <div class="profile-text">
+              <span class="profile-name">Ferris Wonder</span>
+              <span class="profile-position">Associate Partner</span>
+            </div>
+          </div>
+          <div class="profile-data">
+            <img src="img/Niko_Ferry_photo.png" alt="" class="profile-picture">
+            <div class="profile-text">
+              <span class="profile-name">Niko Ferry</span>
+              <span class="profile-position">Partner</span>
+            </div>
+          </div>
         </div>
         <div>
-          <img src="" alt="">
-          <span>Ferris Wonder</span>
-          <span>Associate Partner</span>
-        </div>
-        <div>
-          <img src="" alt="">
-          <span>Niko Ferry</span>
-          <span>Partner</span>
-        </div>
-        <div>
-          <img src="" alt="">
-          <span>Nolan Peters</span>
-          <span>Associate</span>
-        </div>
-        <div>
-          <img src="" alt="">
-          <span>Aria Stone</span>
-          <span>Senior Partner</span>
+          <div class="profile-data">
+            <img src="img/Nolan_Peters_photo.png" alt="" class="profile-picture">
+            <div class="profile-text">
+              <span class="profile-name">Nolan Peters</span>
+              <span class="profile-position">Associate</span>
+            </div>
+          </div>
+          <div class="profile-data">
+            <img src="img/Aria_Stone_photo.png" alt="" class="profile-picture">
+            <div class="profile-text">
+              <span class="profile-name">Aria Stone</span>
+              <span class="profile-position">Senior Partner</span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <section>
-      <h2>Get in touch</h2>
-      <p>Think we would be a good fit for your next project?</p>
-      <button>Get in touch</button>
+    <section class="section-contact">
+      <div>
+        <h2 class="common-header-cap">Get in touch</h2>
+        <p class="common-paragraph">Think we would be a good fit for your next project?</p>
+      </div>
+      <a href="#" class="common-button">Get in touch</a>
     </section>
   </main>
-  <footer>
-    <img src="img/footer_logo.svg" alt="">
-    <p>Powered by Webflow. All rights reserved Wishbone+Partners, Inc.Licensing.</p>
-    <button>X</button>
-    <button>IG</button>
-    <button>FB</button>
+  <footer class="footer">
+    <div class="footer__text">
+      <img src="img/footer_logo.svg" alt="" class="footer__logo">
+      <p class="common-paragraph">Powered by Webflow. </p>
+      <p class="common-paragraph">All rights reserved Wishbone+Partners, Inc.Licensing.</p>
+    </div>
+    <div class="footer__icons">
+      <a href="#"><img src="img/twitter-icon.svg"></a>
+      <a href="#"><img src="img/ig-icon.svg"></a>
+      <a href="#"><img src="img/fb-icon.svg"></a>
+    </div>
   </footer>
 </body>
 </html>
