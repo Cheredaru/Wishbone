@@ -32,23 +32,23 @@
 
 ### 3. Структура файлов
 
-  wishbone/
+  wishbone/  
   ├── index.html             # Главная страница  
   ├── css/  
-  │   ├── style.css          # Основные стили  
-  │   └── reset.css          # Сброс стандартных стилей  
+  │  ├── style.css          # Основные стили  
+  │  └── reset.css          # Сброс стандартных стилей  
   ├── img/                   # Все изображения проекта  
-  │   ├── Aria_Stone_photo.png  
-  │   ├── Building-Icon.svg  
-  │   ├── building-cover.png  
-  │   └── ...  
+  │  ├── Aria_Stone_photo.png  
+  │  ├── Building-Icon.svg  
+  │  ├── building-cover.png  
+  │  └── ...  
   └── README.md              # Этот файл  
 
 ## 🛠 Технологии
   - HTML5 — семантическая разметка
   - CSS3 — стилизация
-      - CSS Variables (Custom Properties)
-      - Flexbox и CSS Grid для верстки
+    - CSS Variables (Custom Properties)
+    - Flexbox и CSS Grid для верстки
 
 ## 💻 Разрешение
   Проект сделан под фиксированную ширину экрана 1440px
