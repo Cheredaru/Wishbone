@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -14,11 +14,11 @@
     <img src="img/header_logo.svg" alt="Wishbone+Partners logo">
     <nav class="header__main-menu-block">
       <ul class="header__main-menu">
-        <li class="main-menu__item">Projects</li>
-        <li class="main-menu__item">About</li>
-        <li class="main-menu__item">News</li>
-        <li class="main-menu__item">Team</li>
-        <li class="main-menu__item">Contact</li>
+        <li class="main-menu__item"><a href="#projects">Projects</a></li>
+        <li class="main-menu__item"><a href="#about">About</a></li>
+        <li class="main-menu__item"><a href="#process">Process</a></li>
+        <li class="main-menu__item"><a href="#team">Team</a></li>
+        <li class="main-menu__item"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -26,14 +26,14 @@
     <section class="section-cover">
       <div class="section-cover__info">
         <h3 class="common-header-cap">Wishbone+Partners</h3>
-        <h1 class="main-header hedaer-weight-normalizer">The home of beautiful architecture.</h1>
+        <h1 class="main-header header-weight-normalizer">The home of beautiful architecture.</h1>
         <p class="common-paragraph">We are an architecture firm with a focus on beautiful but functional design. At its heart, we believe design is about usability and accessibility — these are the guiding principles for our work. Read more about our previous projects, our process and our team below.</p>
         <a href="#" class="common-button">Read more</a>
       </div>
       <img class="section-cover__image" src="img/main-cover.jpg" alt="">
     </section>
-    <section class="section-about">
-      <h2 class="section__header hedaer-weight-normalizer">Our firm</h2>
+    <section class="section-about" id="about">
+      <h2 class="section__header header-weight-normalizer">Our firm</h2>
       <div class="section-about__info">
         <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
         <p class="common-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
@@ -47,35 +47,35 @@
         </div>
       </div>
     </section>
-    <section class="project-cover">
+    <section class="project-cover" id="projects">
       <img src="img/building-cover.png" alt="building cover picture" class="project-cover__image">
       <div class="project-cover__text">
         <h4 class="project-cover__header common-header-cap">Reeding House</h4>
         <p class="common-paragraph">Lorem ipsum dolor sit amet, dolor sit amet dolor sit amet.</p>
       </div>
     </section>
-    <section class="section-how">
+    <section class="section-how" id="process">
       <h3 class="common-header-cap">Our process</h3>
-      <h2 class="section-how__header hedaer-weight-normalizer">How we do what we do.</h2>
+      <h2 class="section-how__header header-weight-normalizer">How we do what we do.</h2>
       <div class="section-how__container">
         <div class="container__card">
           <img src="img/Sketching-Icon.svg" alt="">
-          <h4 class="container__card-header hedaer-weight-normalizer">Sketching</h4>
+          <h4 class="container__card-header header-weight-normalizer">Sketching</h4>
           <p class="container__card-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae tempor leo iaculis.</p>
         </div>
         <div class="container__card">
           <img src="img/Finalizing-Icon.svg" alt="">
-          <h4 class="container__card-header hedaer-weight-normalizer">Finalizing</h4>
+          <h4 class="container__card-header header-weight-normalizer">Finalizing</h4>
           <p class="container__card-paragraph">Adipiscing elit. Nulla ut tristique libero. Nulla vitae tempor leo iaculis luctus sapien ac arcu tempor, vitae.</p>
         </div>
         <div class="container__card">
           <img src="img/Building-Icon.svg" alt="">
-          <h4 class="container__card-header hedaer-weight-normalizer">Building</h4>
+          <h4 class="container__card-header header-weight-normalizer">Building</h4>
           <p class="container__card-paragraph">Nulla ut tristique libero. Lorem ipsum ut tristique libero. Nulla luctus sapien ac arcu tempor, vitae lorem ipsum dolor leo iaculis.</p>
         </div>
       </div>
     </section>
-    <section class="project-cover">
+    <section class="project-cover" id="projects">
       <img src="img/staircase-cover.png" alt="staircase cover picture" class="project-cover__image">
       <div class="project-cover__text">
         <h4 class="project-cover__header common-header-cap">The marble staircase</h4>
@@ -95,7 +95,7 @@
         <img src="img/customer_Chill-Industries.svg" alt="">
       </div>
     </section>
-    <section class="project-cover">
+    <section class="project-cover" id="projects">
       <img src="img/swirling-staircase-cover.png" alt="building cover picture" class="project-cover__image">
       <div class="project-cover__text text-position-left">
         <h4 class="project-cover__header common-header-cap">The swirling staircase</h4>
@@ -103,7 +103,7 @@
       </div>
     </section>
     <section class="featured-projects">
-      <h2 class="featured-projects__header hedaer-weight-normalizer">Featured projects</h2>
+      <h2 class="featured-projects__header header-weight-normalizer">Featured projects</h2>
       <p class="featured-cover__paragraph">Some of the latest and greatest projects from us here at Wishbone+Partners.</p>
       <div class="featured-projects__image-caption">
         <h4 class="common-header-cap">New York</h4>
@@ -117,9 +117,9 @@
       </div>
       <a href="#" class="common-button">View all projects</a>
     </section>
-    <section class="section-team">
+    <section class="section-team" id="team">
       <div class="section-team__info">
-        <h2 class="section__header hedaer-weight-normalizer">Meet our team</h2>
+        <h2 class="section__header header-weight-normalizer">Meet our team</h2>
         <p class="common-paragraph section-team__paragraph">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis.</p>
         <a href="#" class="common-button">See team</a>
       </div>
@@ -165,7 +165,7 @@
         </div>
       </div>
     </section>
-    <section class="section-contact">
+    <section class="section-contact" id="contact">
       <div>
         <h2 class="common-header-cap">Get in touch</h2>
         <p class="common-paragraph">Think we would be a good fit for your next project?</p>

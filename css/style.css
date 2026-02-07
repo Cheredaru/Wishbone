@@ -22,7 +22,7 @@ body {
   box-sizing: border-box;
 }
 
-.hedaer-weight-normalizer{
+.header-weight-normalizer{
   font-weight: 400;
 }
 
@@ -40,6 +40,11 @@ body {
   gap: 32px;
   font-size: 15px;
   line-height: 24px;
+}
+
+.main-menu__item a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .section-cover{
