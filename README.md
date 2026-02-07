@@ -35,8 +35,8 @@
   wishbone/  
   - index.html             # Главная страница  
   - css/  
-    - style.css          # Основные стили  
-    - reset.css          # Сброс стандартных стилей  
+    - style.css            # Основные стили  
+    - reset.css            # Сброс стандартных стилей  
   - img/                   # Все изображения проекта  
     - Aria_Stone_photo.png  
     - Building-Icon.svg  
